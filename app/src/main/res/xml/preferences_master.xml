@@ -15,7 +15,7 @@
             <PreferenceCategory android:title="@string/pref_title__size">
 
                 <SeekBarPreference
-                    android:defaultValue="5"
+                    android:defaultValue="6"
                     android:key="@string/pref_key__desktop_columns"
                     android:max="20"
                     android:title="@string/columns"
@@ -33,7 +33,7 @@
             <PreferenceCategory android:title="@string/pref_title__appearance">
 
                 <ListPreference
-                    android:defaultValue="0"
+                    android:defaultValue="1"
                     android:entries="@array/entries__indicator_mode"
                     android:entryValues="@array/values__zero_to_one"
                     android:key="@string/pref_key__desktop_indicator_style"
@@ -52,7 +52,7 @@
                     android:title="@string/pref_title__desktop_orientation" />
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__desktop_show_grid"
                     android:summary="@string/pref_summary__desktop_show_grid"
                     android:title="@string/pref_title__desktop_show_grid" />
@@ -64,13 +64,13 @@
                     android:title="@string/pref_title__desktop_fullscreen" />
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__desktop_show_position_indicator"
                     android:summary="@string/pref_summary__desktop_show_position_indicator"
                     android:title="@string/pref_title__desktop_show_position_indicator" />
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__desktop_show_label"
                     android:summary="@string/pref_summary__desktop_show_label"
                     android:title="@string/pref_title__desktop_show_label" />
@@ -112,7 +112,7 @@
             <PreferenceCategory android:title="@string/pref_title__search_bar">
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__search_bar_enable"
                     android:summary="@string/pref_summary__search_bar_enable"
                     android:title="@string/pref_title__search_bar_enable" />
@@ -185,7 +185,7 @@
 
 
             <SwitchPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:key="@string/pref_key__dock_enable"
                 android:title="Enable dock" />
 
@@ -210,7 +210,7 @@
             <PreferenceCategory android:title="@string/pref_title__appearance">
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__dock_show_label"
                     android:summary="@string/pref_summary__dock_show_label"
                     android:title="@string/pref_title__dock_show_label" />
@@ -281,13 +281,13 @@
                     android:title="@string/pref_title__drawer_remember_position" />
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__drawer_show_position_indicator"
                     android:summary="@string/pref_summary__drawer_show_position_indicator"
                     android:title="@string/pref_title__drawer_show_position_indicator" />
 
                 <CheckBoxPreference
-                    android:defaultValue="true"
+                    android:defaultValue="false"
                     android:key="@string/pref_key__drawer_show_label"
                     android:summary="@string/pref_summary__drawer_show_label"
                     android:title="@string/pref_title__drawer_show_label" />
@@ -353,7 +353,7 @@
             <PreferenceCategory android:title="@string/pref_title__icons">
 
                 <SeekBarPreference
-                    android:defaultValue="52"
+                    android:defaultValue="100"
                     android:key="@string/pref_key__icon_size"
                     android:max="120"
                     android:summary="@string/pref_summary__icon_size"
@@ -370,7 +370,7 @@
             <PreferenceCategory android:title="@string/pref_title__animations">
 
                 <SeekBarPreference
-                    android:defaultValue="84"
+                    android:defaultValue="100"
                     android:key="@string/pref_key__overall_animation_speed_modifier"
                     android:max="100"
                     android:summary="@string/pref_summary__animation_speed_modifier"
@@ -398,7 +398,7 @@
                 android:title="@string/pref_title__gesture_feedback" />
 
             <CheckBoxPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:key="@string/pref_key__gesture_quick_swipe"
                 android:summary="@string/pref_summary__gesture_quick_swipe"
                 android:title="@string/pref_title__gesture_quick_swipe" />
@@ -478,11 +478,6 @@
 
             </PreferenceCategory>
         </PreferenceScreen>
-
-        <PreferenceScreen
-            android:icon="@drawable/ic_info_outline_dark_24dp"
-            android:key="@string/pref_key__about"
-            android:title="@string/pref_title__about" />
 
     </PreferenceCategory>
 

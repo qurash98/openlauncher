@@ -42,9 +42,9 @@ public class LauncherAction {
     };
 
     public static List<Action> defaultArrangement = Arrays.asList(
-            Action.EditMinibar, Action.SetWallpaper,
-            Action.LockScreen, Action.LauncherSettings,
-            Action.VolumeDialog, Action.DeviceSettings
+            Action.LockScreen,
+            Action.VolumeDialog,
+            Action.MobileNetworkSettings
     );
 
     public static void RunAction(Action action, final Context context) {

@@ -58,7 +58,7 @@ public class ItemViewFactory {
                     view.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
                     break;
                 case ACTION:
-                    view = builder.setActionItem(item).getView();
+//                    view = builder.setActionItem(item).getView();
                     break;
             }
         }
